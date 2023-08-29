@@ -1,0 +1,33 @@
+footer.footer {
+    background: #121212;
+    padding: 74px;
+    position: relative;
+    z-index: 3;
+    .footer-container {
+        max-width: 737px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: auto;
+        .logo {
+            color: #ff6b00;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .footer-menu {
+            color: #fdfdfd;
+            font-style: normal;
+            line-height: normal;
+            .footer-item.title {
+                font-size: 18px;
+                font-weight: 700;
+            }
+            .footer-item.text {
+                margin-top: 15px;
+                font-size: 16px;
+                font-weight: 300;
+            }
+        }
+    }
+}

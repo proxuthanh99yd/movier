@@ -1,0 +1,12 @@
+@use "./Login";
+.register-container {
+    @extend .login-container;
+    .form-control {
+        margin-top: 10px;
+    }
+    .icon {
+        img {
+            color: #fff;
+        }
+    }
+}
